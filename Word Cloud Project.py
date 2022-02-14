@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+
 
 
 get_ipython().system('pip install wordcloud')
@@ -19,7 +19,7 @@ import io
 import sys
 
 
-# In[15]:
+
 
 
 # This is the uploader widget
@@ -42,7 +42,7 @@ def _upload():
 _upload()
 
 
-# In[16]:
+
 
 
 def calculate_frequencies(file_contents):
@@ -74,7 +74,7 @@ def calculate_frequencies(file_contents):
     
 
 
-# In[17]:
+
 
 
 # Display your wordcloud image
@@ -85,7 +85,7 @@ plt.axis('off')
 plt.show()
 
 
-# In[ ]:
+
 
 
 
